@@ -4,8 +4,8 @@
 
 <br/><br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=gfriloux&theme=catppuccin_mocha&show_icons=true&hide_border=true&rank_icon=github&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gfriloux&theme=catppuccin_mocha&layout=compact&hide_border=true&langs_count=8" />
+<img height="165" src="https://raw.githubusercontent.com/gfriloux/gfriloux/output/stats.svg" />
+<img height="165" src="https://raw.githubusercontent.com/gfriloux/gfriloux/output/langs.svg" />
 
 <br/><br/>
 
