@@ -17,7 +17,7 @@ galaxy_arms:
   - name: "Systems"
     color: "synapse_cyan"
     items:
-      - "C"
+      - "Archlinux"
       - "NixOS"
       - "Linux"
   - name: "Infra"
@@ -29,7 +29,8 @@ galaxy_arms:
   - name: "Dev"
     color: "axon_amber"
     items:
-      - "Python"
+      - "C"
+      - "Rust"
       - "Shell"
       - "Git"
 
