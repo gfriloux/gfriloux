@@ -1,20 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="112" viewBox="0 0 800 112">
-  <rect width="800" height="112" fill="#282828"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="178" viewBox="0 0 800 178">
+  <rect width="800" height="178" fill="#282828"/>
 
-  <!-- Box (double-line effect) -->
-  <rect x="20" y="9"  width="760" height="94" fill="none" stroke="#fabd2f" stroke-width="1.5"/>
-  <rect x="23" y="12" width="754" height="88" fill="none" stroke="#fabd2f" stroke-width="0.5"/>
+  <!-- ░░ GFRILOUX — block art logo, 4 rows, BBS/warez style ░░ -->
+  <!--
+    G(5) F(4) R(5) I(3) L(4) O(5) U(5) X(5) + 7 spaces = 43 chars
+    At ~9px/char: 387px wide. Center: (800-387)/2 = 206 → x=207
+  -->
 
-  <!-- Separator (double line) -->
-  <line x1="20"  y1="55" x2="780" y2="55" stroke="#fabd2f" stroke-width="1.5"/>
-  <line x1="20"  y1="58" x2="780" y2="58" stroke="#fabd2f" stroke-width="0.5"/>
+  <text x="207" y="44"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="15" fill="#fabd2f" xml:space="preserve"> ███▄ ████ ████▄ ▀█▀ █    ███  █   █ █   █</text>
 
-  <!-- Name -->
-  <text x="36" y="37" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13" fill="#ebdbb2">guillaume friloux</text>
+  <text x="207" y="59"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="15" fill="#fabd2f" xml:space="preserve">█     █▀▀  █   █  █  █   █   █ █   █  █ █ </text>
 
-  <!-- Title (right-aligned) -->
-  <text x="764" y="37" text-anchor="end" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13" fill="#8ec07c">// systems engineer</text>
+  <text x="207" y="74"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="15" fill="#fabd2f" xml:space="preserve">█  ██ ███  ████   █  █   █   █ █   █   █  </text>
+
+  <text x="207" y="89"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="15" fill="#fe8019" xml:space="preserve">▀▄▄▀▀ █    █  ▀▄ ▄█▄ ████  ███  ▀███▀ ▄█ █▄</text>
+
+  <!-- BBS separator -->
+  <text x="400" y="112"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="12" fill="#504945" xml:space="preserve">░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░</text>
+
+  <!-- Tagline -->
+  <text x="400" y="136"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="13" fill="#8ec07c">// systems engineer · 25 yrs linux · cryptography</text>
 
   <!-- Skills -->
-  <text x="36" y="79" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13"><tspan fill="#b8bb26">25+ yrs linux</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">cryptography</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">nix</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">rust</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">c</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">aws</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">terraform</tspan></text>
+  <text x="400" y="156"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="13"><tspan fill="#b8bb26">nix</tspan><tspan fill="#928374"> · </tspan><tspan fill="#b8bb26">rust</tspan><tspan fill="#928374"> · </tspan><tspan fill="#b8bb26">c</tspan><tspan fill="#928374"> · </tspan><tspan fill="#b8bb26">aws</tspan><tspan fill="#928374"> · </tspan><tspan fill="#b8bb26">terraform</tspan><tspan fill="#928374"> · </tspan><tspan fill="#b8bb26">ansible</tspan><tspan fill="#928374"> · </tspan><tspan fill="#b8bb26">pgp</tspan></text>
+
+  <!-- BBS separator -->
+  <text x="400" y="172"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="12" fill="#504945" xml:space="preserve">░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░</text>
 </svg>

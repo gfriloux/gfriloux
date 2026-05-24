@@ -1,9 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="76" viewBox="0 0 800 76">
   <rect width="800" height="76" fill="#282828"/>
 
-  <!-- Top rule -->
-  <line x1="20" y1="12" x2="780" y2="12" stroke="#3c3836" stroke-width="1.5"/>
-  <line x1="20" y1="15" x2="780" y2="15" stroke="#3c3836" stroke-width="0.5"/>
+  <!-- Top rule - BBS style -->
+  <text x="400" y="15"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="12" fill="#504945" xml:space="preserve">░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░</text>
 
   <!-- Philosophy -->
   <text x="36" y="38" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13"><tspan fill="#928374">// </tspan><tspan fill="#fe8019">no social networks. code over hype. decentralist.</tspan></text>
@@ -11,7 +13,9 @@
   <!-- Contact -->
   <text x="36" y="58" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13"><tspan fill="#b8bb26">mail:</tspan><tspan fill="#ebdbb2"> guillaume+code@friloux.me</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">cv:</tspan><tspan fill="#ebdbb2"> github.com/gfriloux/resume</tspan></text>
 
-  <!-- Bottom rule -->
-  <line x1="20" y1="68" x2="780" y2="68" stroke="#3c3836" stroke-width="1.5"/>
-  <line x1="20" y1="65" x2="780" y2="65" stroke="#3c3836" stroke-width="0.5"/>
+  <!-- Bottom rule - BBS style -->
+  <text x="400" y="72"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="12" fill="#504945" xml:space="preserve">░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░</text>
 </svg>

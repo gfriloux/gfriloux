@@ -1,35 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="204" viewBox="0 0 800 204">
-  <rect width="800" height="204" fill="#282828"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="246" viewBox="0 0 800 246">
+  <rect width="800" height="246" fill="#282828"/>
+
+  <!-- BBS section header -->
+  <text x="400" y="15"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="12" fill="#504945" xml:space="preserve">░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░</text>
+
+  <text x="400" y="35"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="13" fill="#fabd2f">[ projects ]</text>
+
+  <text x="400" y="50"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
+    font-size="12" fill="#504945" xml:space="preserve">░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░</text>
 
   <!-- ─── ROW 1: pgpilot (left) + botman (right) ─── -->
 
-  <rect x="20"  y="9" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
-  <line x1="20"  y1="28" x2="390" y2="28" stroke="#fe8019" stroke-width="0.5"/>
-  <text x="28"  y="23" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ pgpilot ]</text>
-  <text x="28"  y="45" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Desktop GUI for PGP key management</text>
-  <text x="28"  y="62" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12"><tspan fill="#8ec07c">Tauri</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Rust</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">React</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">YubiKey</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">MQTT</tspan></text>
-  <text x="28"  y="79" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Encrypted chat · Dual themes · E2E</text>
+  <rect x="20"  y="55" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
+  <line x1="20"  y1="74" x2="390" y2="74" stroke="#fe8019" stroke-width="0.5"/>
+  <text x="28"  y="69" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ pgpilot ]</text>
+  <text x="28"  y="91" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Desktop GUI for PGP key management</text>
+  <text x="28"  y="108" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12"><tspan fill="#8ec07c">Tauri</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Rust</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">React</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">YubiKey</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">MQTT</tspan></text>
+  <text x="28"  y="125" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Encrypted chat · Dual themes · E2E</text>
 
-  <rect x="410" y="9" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
-  <line x1="410" y1="28" x2="780" y2="28" stroke="#fe8019" stroke-width="0.5"/>
-  <text x="418" y="23" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ botman ]</text>
-  <text x="418" y="45" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Legacy bot framework — unmaintained</text>
-  <text x="418" y="62" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Simple · Opinionated · No magic</text>
-  <text x="418" y="79" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Still proud of it.</text>
+  <rect x="410" y="55" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
+  <line x1="410" y1="74" x2="780" y2="74" stroke="#fe8019" stroke-width="0.5"/>
+  <text x="418" y="69" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ botman ]</text>
+  <text x="418" y="91" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Legacy bot framework — unmaintained</text>
+  <text x="418" y="108" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Simple · Opinionated · No magic</text>
+  <text x="418" y="125" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Still proud of it.</text>
 
   <!-- ─── ROW 2: nixos (left) + legacy (right) ─── -->
 
-  <rect x="20"  y="107" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
-  <line x1="20"  y1="126" x2="390" y2="126" stroke="#fe8019" stroke-width="0.5"/>
-  <text x="28"  y="121" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ nixos ]</text>
-  <text x="28"  y="143" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Personal NixOS configuration</text>
-  <text x="28"  y="160" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12"><tspan fill="#8ec07c">Flakes</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Home Manager</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Declarative</tspan></text>
-  <text x="28"  y="177" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Reproducible by design</text>
+  <rect x="20"  y="153" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
+  <line x1="20"  y1="172" x2="390" y2="172" stroke="#fe8019" stroke-width="0.5"/>
+  <text x="28"  y="167" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ nixos ]</text>
+  <text x="28"  y="189" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Personal NixOS configuration</text>
+  <text x="28"  y="206" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12"><tspan fill="#8ec07c">Flakes</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Home Manager</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Declarative</tspan></text>
+  <text x="28"  y="223" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Reproducible by design</text>
 
-  <rect x="410" y="107" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
-  <line x1="410" y1="126" x2="780" y2="126" stroke="#fe8019" stroke-width="0.5"/>
-  <text x="418" y="121" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ legacy ]</text>
-  <text x="418" y="143" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">25 years of professional notes</text>
-  <text x="418" y="160" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">What breaks. What scales.</text>
-  <text x="418" y="177" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Not theory. Experience.</text>
+  <rect x="410" y="153" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
+  <line x1="410" y1="172" x2="780" y2="172" stroke="#fe8019" stroke-width="0.5"/>
+  <text x="418" y="167" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ legacy ]</text>
+  <text x="418" y="189" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">25 years of professional notes</text>
+  <text x="418" y="206" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">What breaks. What scales.</text>
+  <text x="418" y="223" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Not theory. Experience.</text>
 </svg>
