@@ -34,15 +34,12 @@ galaxy_arms:
       - "Git"
 
 projects:
-  - repo: "gfriloux/gfriloux"
+  - repo: "gfriloux/PGPilot"
     arm: 2
-    description: "GitHub profile repository with animated SVG assets and CI workflows."
-  - repo: "gfriloux/maelstrom"
+    description: "GPG Frontend"
+  - repo: "gfriloux/nixos"
     arm: 0
-    description: "C-based message bus for inter-process communication."
-  - repo: "gfriloux/smolnotify"
-    arm: 0
-    description: "Lightweight notification daemon for Linux desktops."
+    description: "Home for my nixos code."
 
 theme:
   void: "#080c14"
