@@ -1,24 +1,29 @@
 <div align="center">
+  <img src="./assets/generated/galaxy-header.svg" width="850" alt="Galaxy Header"/>
+</div>
 
-<img src="neofetch.svg" alt="neofetch" width="800" />
+<br/>
 
-<br/><br/>
+<div align="center">
+  <img src="./assets/generated/stats-card.svg" width="850" alt="Mission Telemetry"/>
+</div>
 
-<img height="165" src="https://raw.githubusercontent.com/gfriloux/gfriloux/output/stats.svg" />
-<img height="165" src="https://raw.githubusercontent.com/gfriloux/gfriloux/output/langs.svg" />
+<br/>
 
-<br/><br/>
+<div align="center">
+  <img src="./assets/generated/tech-stack.svg" width="850" alt="Tech Stack"/>
+</div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gfriloux&theme=catppuccin-mocha&hide_border=true&area=true" width="800" />
+<br/>
 
-<br/><br/>
+<div align="center">
+  <img src="./assets/generated/projects-constellation.svg" width="850" alt="Featured Projects"/>
+</div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/gfriloux/gfriloux/output/snake-catppuccin.svg" />
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/gfriloux/gfriloux/output/snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/gfriloux/gfriloux/output/snake-catppuccin.svg" />
-</picture>
+<br/>
 
+<div align="center">
+  <a href="mailto:guillaume+code@friloux.me">
+    <img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="Email"/>
+  </a>
 </div>
