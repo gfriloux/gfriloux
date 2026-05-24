@@ -4,13 +4,9 @@
 
 <br/>
 
-</div>
+<em>Systems engineer · 25 yrs Linux · cryptography · NixOS · Rust · no social networks</em>
 
-Systems engineer with 25 years on Linux. Started on the BBS, learned to code by necessity, built infrastructure at scale. Deep in cryptography, automation, and the Unix philosophy. Nix, Rust, and shell are my languages. AWS and Terraform by day; NixOS and PGP by night. No social networks — I believe they're engineered to be harmful. This isn't anti-social; it's anti-bullshit. I build tools that do one thing well. The code is the message.
-
-<div align="center">
-
-<br/>
+<br/><br/>
 
 <img src="assets/projects.svg" width="800" alt="projects: pgpilot, botman, nixos, legacy" />
 
@@ -21,16 +17,16 @@ Systems engineer with 25 years on Linux. Started on the BBS, learned to code by 
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gfriloux&theme=catppuccin-mocha&hide_border=true&area=true" width="800" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gfriloux&bg_color=282828&color=928374&line=fabd2f&point=fe8019&area_color=3c3836&title_color=ebdbb2&hide_border=true&area=true" width="800" />
 
 <br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/gfriloux/gfriloux/output/snake-catppuccin.svg" />
+    srcset="https://raw.githubusercontent.com/gfriloux/gfriloux/output/snake-gruvbox.svg" />
   <source media="(prefers-color-scheme: light)"
     srcset="https://raw.githubusercontent.com/gfriloux/gfriloux/output/snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/gfriloux/gfriloux/output/snake-catppuccin.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/gfriloux/gfriloux/output/snake-gruvbox.svg" />
 </picture>
 
 <br/>

@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="80" viewBox="0 0 800 80">
-  <rect width="800" height="80" fill="#282828"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="76" viewBox="0 0 800 76">
+  <rect width="800" height="76" fill="#282828"/>
 
-  <!-- Top rule (double line) -->
-  <line x1="109" y1="14" x2="691" y2="14" stroke="#3c3836" stroke-width="1.5"/>
-  <line x1="109" y1="17" x2="691" y2="17" stroke="#3c3836" stroke-width="0.5"/>
+  <!-- Top rule -->
+  <line x1="20" y1="12" x2="780" y2="12" stroke="#3c3836" stroke-width="1.5"/>
+  <line x1="20" y1="15" x2="780" y2="15" stroke="#3c3836" stroke-width="0.5"/>
 
   <!-- Philosophy -->
-  <text x="126" y="40" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13"><tspan fill="#928374">// </tspan><tspan fill="#fe8019">no social networks. code over hype. decentralist.</tspan></text>
+  <text x="36" y="38" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13"><tspan fill="#928374">// </tspan><tspan fill="#fe8019">no social networks. code over hype. decentralist.</tspan></text>
 
   <!-- Contact -->
-  <text x="126" y="60" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13"><tspan fill="#b8bb26">mail:</tspan><tspan fill="#ebdbb2"> guillaume+code@friloux.me</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">cv:</tspan><tspan fill="#ebdbb2"> github.com/gfriloux/resume</tspan></text>
+  <text x="36" y="58" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13"><tspan fill="#b8bb26">mail:</tspan><tspan fill="#ebdbb2"> guillaume+code@friloux.me</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">cv:</tspan><tspan fill="#ebdbb2"> github.com/gfriloux/resume</tspan></text>
 
-  <!-- Bottom rule (double line) -->
-  <line x1="109" y1="72" x2="691" y2="72" stroke="#3c3836" stroke-width="1.5"/>
-  <line x1="109" y1="69" x2="691" y2="69" stroke="#3c3836" stroke-width="0.5"/>
+  <!-- Bottom rule -->
+  <line x1="20" y1="68" x2="780" y2="68" stroke="#3c3836" stroke-width="1.5"/>
+  <line x1="20" y1="65" x2="780" y2="65" stroke="#3c3836" stroke-width="0.5"/>
 </svg>

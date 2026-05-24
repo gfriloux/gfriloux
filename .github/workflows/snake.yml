@@ -18,6 +18,7 @@ jobs:
           outputs: |
             dist/snake.svg
             dist/snake-catppuccin.svg?color_snake=#a6e3a1&color_dots=#1e1e2e,#313244,#585b70,#cba6f7,#89b4fa
+            dist/snake-gruvbox.svg?color_snake=#fabd2f&color_dots=#282828,#3c3836,#504945,#b8bb26,#fe8019
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

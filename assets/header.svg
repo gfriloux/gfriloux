@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="115" viewBox="0 0 800 115">
-  <rect width="800" height="115" fill="#282828"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="112" viewBox="0 0 800 112">
+  <rect width="800" height="112" fill="#282828"/>
 
-  <!-- Outer box (double-line effect: two nested rects) -->
-  <rect x="109" y="9"  width="582" height="97" fill="none" stroke="#fabd2f" stroke-width="1.5"/>
-  <rect x="112" y="12" width="576" height="91" fill="none" stroke="#fabd2f" stroke-width="0.5"/>
+  <!-- Box (double-line effect) -->
+  <rect x="20" y="9"  width="760" height="94" fill="none" stroke="#fabd2f" stroke-width="1.5"/>
+  <rect x="23" y="12" width="754" height="88" fill="none" stroke="#fabd2f" stroke-width="0.5"/>
 
   <!-- Separator (double line) -->
-  <line x1="109" y1="56" x2="691" y2="56" stroke="#fabd2f" stroke-width="1.5"/>
-  <line x1="109" y1="59" x2="691" y2="59" stroke="#fabd2f" stroke-width="0.5"/>
+  <line x1="20"  y1="55" x2="780" y2="55" stroke="#fabd2f" stroke-width="1.5"/>
+  <line x1="20"  y1="58" x2="780" y2="58" stroke="#fabd2f" stroke-width="0.5"/>
 
-  <!-- Name (left) -->
-  <text x="126" y="38" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13" fill="#ebdbb2">guillaume friloux</text>
+  <!-- Name -->
+  <text x="36" y="37" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13" fill="#ebdbb2">guillaume friloux</text>
 
   <!-- Title (right-aligned) -->
-  <text x="674" y="38" text-anchor="end" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13" fill="#8ec07c">// systems engineer</text>
+  <text x="764" y="37" text-anchor="end" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13" fill="#8ec07c">// systems engineer</text>
 
   <!-- Skills -->
-  <text x="126" y="80" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13"><tspan fill="#b8bb26">25+ yrs linux</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">cryptography</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">nix</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">rust</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">c</tspan></text>
+  <text x="36" y="79" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="13"><tspan fill="#b8bb26">25+ yrs linux</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">cryptography</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">nix</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">rust</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">c</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">aws</tspan><tspan fill="#928374">  ·  </tspan><tspan fill="#b8bb26">terraform</tspan></text>
 </svg>

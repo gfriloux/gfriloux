@@ -1,51 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="204" viewBox="0 0 800 204">
   <rect width="800" height="204" fill="#282828"/>
 
-  <!-- ═══ ROW 1: pgpilot (left) + botman (right) ═══ -->
+  <!-- ─── ROW 1: pgpilot (left) + botman (right) ─── -->
 
-  <!-- pgpilot card border -->
-  <rect x="109" y="9" width="281" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
-  <!-- pgpilot title separator -->
-  <line x1="109" y1="28" x2="390" y2="28" stroke="#fe8019" stroke-width="0.5"/>
-  <!-- pgpilot title -->
-  <text x="116" y="23" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ pgpilot ]</text>
-  <!-- pgpilot content -->
-  <text x="116" y="45" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Desktop GUI for PGP key mgmt</text>
-  <text x="116" y="62" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12"><tspan fill="#8ec07c">Tauri</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Rust</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">React</tspan></text>
-  <text x="116" y="79" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12"><tspan fill="#8ec07c">YubiKey</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">MQTT</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">encrypted</tspan></text>
+  <rect x="20"  y="9" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
+  <line x1="20"  y1="28" x2="390" y2="28" stroke="#fe8019" stroke-width="0.5"/>
+  <text x="28"  y="23" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ pgpilot ]</text>
+  <text x="28"  y="45" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Desktop GUI for PGP key management</text>
+  <text x="28"  y="62" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12"><tspan fill="#8ec07c">Tauri</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Rust</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">React</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">YubiKey</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">MQTT</tspan></text>
+  <text x="28"  y="79" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Encrypted chat · Dual themes · E2E</text>
 
-  <!-- botman card border -->
-  <rect x="411" y="9" width="281" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
-  <!-- botman title separator -->
-  <line x1="411" y1="28" x2="692" y2="28" stroke="#fe8019" stroke-width="0.5"/>
-  <!-- botman title -->
+  <rect x="410" y="9" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
+  <line x1="410" y1="28" x2="780" y2="28" stroke="#fe8019" stroke-width="0.5"/>
   <text x="418" y="23" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ botman ]</text>
-  <!-- botman content -->
-  <text x="418" y="45" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Legacy bot framework</text>
-  <text x="418" y="62" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12"><tspan fill="#ebdbb2">Unmaintained</tspan><tspan fill="#928374"> · </tspan><tspan fill="#ebdbb2">still proud</tspan></text>
-  <text x="418" y="79" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Opinionated. No magic.</text>
+  <text x="418" y="45" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Legacy bot framework — unmaintained</text>
+  <text x="418" y="62" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Simple · Opinionated · No magic</text>
+  <text x="418" y="79" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Still proud of it.</text>
 
-  <!-- ═══ ROW 2: nixos (left) + legacy (right) ═══ -->
+  <!-- ─── ROW 2: nixos (left) + legacy (right) ─── -->
 
-  <!-- nixos card border -->
-  <rect x="109" y="107" width="281" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
-  <!-- nixos title separator -->
-  <line x1="109" y1="126" x2="390" y2="126" stroke="#fe8019" stroke-width="0.5"/>
-  <!-- nixos title -->
-  <text x="116" y="121" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ nixos ]</text>
-  <!-- nixos content -->
-  <text x="116" y="143" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Personal NixOS configuration</text>
-  <text x="116" y="160" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12"><tspan fill="#8ec07c">Flakes</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Home Manager</tspan></text>
-  <text x="116" y="177" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Reproducible by design</text>
+  <rect x="20"  y="107" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
+  <line x1="20"  y1="126" x2="390" y2="126" stroke="#fe8019" stroke-width="0.5"/>
+  <text x="28"  y="121" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ nixos ]</text>
+  <text x="28"  y="143" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Personal NixOS configuration</text>
+  <text x="28"  y="160" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12"><tspan fill="#8ec07c">Flakes</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Home Manager</tspan><tspan fill="#928374"> · </tspan><tspan fill="#8ec07c">Declarative</tspan></text>
+  <text x="28"  y="177" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Reproducible by design</text>
 
-  <!-- legacy card border -->
-  <rect x="411" y="107" width="281" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
-  <!-- legacy title separator -->
-  <line x1="411" y1="126" x2="692" y2="126" stroke="#fe8019" stroke-width="0.5"/>
-  <!-- legacy title -->
+  <rect x="410" y="107" width="370" height="88" fill="none" stroke="#fe8019" stroke-width="1.5"/>
+  <line x1="410" y1="126" x2="780" y2="126" stroke="#fe8019" stroke-width="0.5"/>
   <text x="418" y="121" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#fabd2f">[ legacy ]</text>
-  <!-- legacy content -->
   <text x="418" y="143" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">25 years of professional notes</text>
-  <text x="418" y="160" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">What breaks. What scales.</text>
-  <text x="418" y="177" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">Not theory. Experience.</text>
+  <text x="418" y="160" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#928374">What breaks. What scales.</text>
+  <text x="418" y="177" font-family="'Courier New', Courier, 'DejaVu Sans Mono', monospace" font-size="12" fill="#ebdbb2">Not theory. Experience.</text>
 </svg>
