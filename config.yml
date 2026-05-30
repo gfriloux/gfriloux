@@ -41,6 +41,9 @@ projects:
   - repo: "gfriloux/nixos"
     arm: 0
     description: "Home for my nixos code."
+  - repo: "gfriloux/stc"
+    arm: 1
+    description: "Reusable NixOS/HM modules library."
 
 theme:
   void: "#080c14"
