@@ -34,10 +34,19 @@ def validate_config(config: dict) -> dict:
     if not profile.get("name"):
         raise ConfigError("'profile.name' is required.")
 
-    # galaxy_arms — required, must be a list
+    # galaxy_arms — required, must be a list of exactly 3 entries.
+    # The tech-stack radar chart (generator/templates/tech_stack.py) hardcodes
+    # a 3-sector 120-degree layout, so any other count silently renders a
+    # broken/overlapping radar instead of failing loudly.
     galaxy_arms = config.get("galaxy_arms", [])
     if not isinstance(galaxy_arms, list) or not galaxy_arms:
         raise ConfigError("'galaxy_arms' must be a non-empty list.")
+    if len(galaxy_arms) != 3:
+        raise ConfigError(
+            "'galaxy_arms' must contain exactly 3 entries "
+            f"(got {len(galaxy_arms)}): the tech-stack radar chart is "
+            "hardcoded to a 3-sector layout."
+        )
     for i, arm in enumerate(galaxy_arms):
         if not isinstance(arm, dict):
             raise ConfigError(f"galaxy_arms[{i}] must be a mapping.")
