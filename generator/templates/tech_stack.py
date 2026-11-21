@@ -53,8 +53,9 @@ def _build_radar_sectors(sector_data, rcx, rcy, radius, theme):
         )
 
     # Sector boundary lines (radial lines at sector edges)
+    sector_width = 360 / len(sector_data) if sector_data else 0
     for i in range(len(sector_data)):
-        angle_deg = i * 120
+        angle_deg = i * sector_width
         angle_rad = math.radians(angle_deg - 90)
         lx = rcx + radius * math.cos(angle_rad)
         ly = rcy + radius * math.sin(angle_rad)
@@ -180,6 +181,7 @@ def render(
 
     all_arm_colors = resolve_arm_colors(galaxy_arms, theme)
 
+    sector_width = 360 / len(galaxy_arms) if galaxy_arms else 0
     sector_data = []
     for i, arm in enumerate(galaxy_arms):
         color = all_arm_colors[i]
@@ -188,8 +190,8 @@ def render(
             "name": arm["name"],
             "color": color,
             "items": len(items),
-            "start_deg": i * 120 + 1,
-            "end_deg": (i + 1) * 120 - 1,
+            "start_deg": i * sector_width + 1,
+            "end_deg": (i + 1) * sector_width - 1,
         })
 
     radius = 65
